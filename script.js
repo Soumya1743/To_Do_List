@@ -20,9 +20,19 @@ button.addEventListener('click', () =>{
     });
     date1.value = '';
     taskList.append(Div);
-})
+});
 
 
+// let d = document.getElementById('download');
+// d.addEventListener('click', download_image);
+// function download_image(){
+//     html2canvas(taskList).then(canvas=>{
+//         const link = document.createElement('a');
+//         link.href = canvas.toDataURL('image/png');
+//         link.download = 'image.png';
+//         link.click();
+//     });
+// }
 
 
 
