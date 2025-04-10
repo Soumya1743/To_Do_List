@@ -6,7 +6,7 @@ const taskList = document.getElementById('taskList');
 
 button.addEventListener('click', () =>{
     let Div = document.createElement('div');
-    Div.innerText = task.value + ` ON ==>> ` + date1.value;
+    Div.innerText = task.value + ` ==>> ` + date1.value;
     Div.id = "div-list";
     task.value = '';
     
